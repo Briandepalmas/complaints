@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaints</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+                
+    
+</head>
+<body>
+
+   
+    <h1> WHERE CAN WE CAUSE TROUBLE TODAY?</h1> 
+    <form>
+        <input class="input"type="text" placeholder="# of complaints">
+        <!--<input class="input"type="submit" value="Get Movie info">-->
+    </form>
+    <div id="mybuttons">
+        
+        <button class="buttons" id="bk" onclick="fuse('BROOKLYN')">Brooklyn</button>
+        <button class="buttons" id="m" onclick="fuse('MANHATTAN')">Manhattan</button>
+        <button class="buttons" id="q" onclick="fuse('QUEENS')">Queens</button>
+        <button class="buttons" id="bx" onclick="fuse('BRONX')">Bronx</button>
+        <button class="buttons" id="si" onclick="fuse('STATEN ISLAND')">Staten Island</button>
+        
+        <dl>
+            
+            <dd class="cdisplay">
+                <p class="cc"></p>
+                <p id="complaint"></p>
+                <p id="cc2"></p>
+
+                  
+            </dd> 
+            
+            
+
+        </dl> 
+          
+    </div>
+
+    <script src="/app.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+.buttons{
+    margin-top: 50px;
+    margin-left: 90px;
+    border-radius: 100%;
+    background-color: rgb(61, 61, 222);
+    color:white;
+    font-size: 30px;
+    height:90px   
+}
+.input{
+    margin-left: 40%;
+    font-size:20px;
+    height:50px
+}
+
+ .cc{
+    
+     margin-left: 20%;
+    font-size: 24px;
+}
+#complaint{
+    margin-left: 20%;
+    font-size: 20px;
+    height:30px;
+    width:45px
+} 
+#resolution{
+    margin-top: 1px;
+    color:white;
+    height:30px;
+    width:100px;
+    background-color: red;
+}
+#cc2{
+    text-align: right;
+    
+}
